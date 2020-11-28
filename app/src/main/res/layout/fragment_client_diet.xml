@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/client_workout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClientWorkoutFragment"
+    android:paddingTop="45dp"
+    android:paddingBottom="60dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/heading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="Assigned Diet Chart"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.011" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none" >
+
+                    <ScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="none" >
+
+                        <ImageView
+                            android:id="@+id/img_diet"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@string/app_name" />
+                    </ScrollView>
+
+                </HorizontalScrollView>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/heading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="Selected Meeting Slot"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.011" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/diet_slot"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginEnd="-1dp"
+                    android:layout_marginBottom="-58dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="N/A" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rect"
+                android:elevation="3dp"
+                android:paddingBottom="12dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/select_date"
+                    android:textColorHint="@android:color/white"
+                    app:boxStrokeColor="@android:color/white"
+                    app:boxStrokeWidthFocused="2dp"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="@android:color/white"
+                    app:hintTextColor="@android:color/white"
+                    app:startIconDrawable="@drawable/ic_baseline_date_range_24"
+                    app:startIconTint="@android:color/white"
+
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/belgrano"
+                        android:inputType="text"
+                        android:textColor="@android:color/white">
+
+                    </com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+               <!-- <Button
+                    android:id="@+id/date_btn"
+                    android:layout_width="95dp"
+                    android:layout_height="43dp"
+                    android:text="Date"
+                    android:layout_marginLeft="280dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.343"
+                    app:layout_constraintStart_toEndOf="@+id/editTime"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.196" />
+-->
+
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:id="@+id/time"
+                    android:hint="@string/select_time"
+                    android:textColorHint="@android:color/white"
+                    app:boxStrokeColor="@android:color/white"
+                    app:boxStrokeWidthFocused="2dp"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="@android:color/white"
+                    app:hintTextColor="@android:color/white"
+                    app:startIconDrawable="@drawable/ic_baseline_access_time_24"
+                    app:startIconTint="@android:color/white"
+
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/belgrano"
+                        android:inputType="text"
+                        android:textColor="@android:color/white"
+                        >
+
+                    </com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+            <!--    <Button
+                    android:id="@+id/time_btn"
+                    android:layout_width="95dp"
+                    android:layout_height="43dp"
+                    android:text="Time"
+                    android:layout_marginLeft="280dp"
+                    android:layout_marginTop="60dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.343"
+                    app:layout_constraintStart_toEndOf="@+id/editTime"
+                    app:layout_constraintTop_toBottomOf="@+id/date_btn"
+                    app:layout_constraintVertical_bias="0.047" />
+-->
+                <Button
+                    android:id="@+id/select_meeting_slot"
+                    android:layout_width="444dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="74dp"
+                    android:layout_marginTop="140dp"
+                    android:layout_marginEnd="76dp"
+
+                    android:text="Submit"
+                    android:textColor="@android:color/white"
+                    android:background="@color/colorPrimaryDark"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

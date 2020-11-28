@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F45D01</color>
+    <color name="colorPrimaryDark">#F45D01</color>
+    <color name="colorAccent">#D2FF7722</color>
+    <color name="rect">#FF6822</color>
+    <color name="colorSecondary">@android:color/white</color>
+
+    <color name="textColor">#273d52</color>
+    <color name="headerColor">#145795</color>
+
+    <color name="startColor">#006797</color>
+    <color name="endColor">#489855</color>
+    <color name="centerColor">#006797</color>
+    <color name="userRow">#403fc68b</color>
+    <color name="iconColor">#145798</color>
+
+    <color name="gradient_start_color">#4c84ff</color>
+    <color name="gradient_end_color">#18a3fe</color>
+
+
+    <!-- colors for tab and screen text -->
+
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="intro_description_color">#656565</color>
+</resources>

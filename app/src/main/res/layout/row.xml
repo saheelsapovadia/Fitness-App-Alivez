@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/clientimg"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/ic_launcher_round" />
+
+        <TextView
+            android:id="@+id/clientname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Client Name"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_toEndOf="@+id/clientimg" />
+
+        <TextView
+            android:id="@+id/clientfees"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Fees Pending :"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_toEndOf="@+id/clientimg"
+            android:layout_below="@+id/clientname"/>
+
+        <TextView
+            android:id="@+id/satus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Yes/No"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_toEndOf="@+id/clientfees"
+            android:layout_below="@+id/clientname"/>
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

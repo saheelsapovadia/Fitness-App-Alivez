@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fff">
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="641dp"
+            android:gravity="center"
+            android:text="PAYMENTS"
+            android:textColor="#000"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ImageView
+
+            android:layout_width="244dp"
+            android:layout_height="73dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="85dp"
+            android:layout_marginBottom="557dp"
+            android:src="@drawable/paytm" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="180dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="491dp"
+            android:gravity="center"
+            android:text="Merchant Mobile Number"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="220dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="451dp"
+            android:gravity="center"
+            android:text="7990793376"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+
+            android:layout_width="321dp"
+            android:layout_height="118dp"
+
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="270dp"
+            android:layout_marginEnd="37dp"
+            android:layout_marginBottom="313dp"
+            android:src="@drawable/upi_new" />
+
+        <ImageView
+
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="62dp"
+            android:layout_marginTop="380dp"
+            android:layout_marginEnd="49dp"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/qrcode" />
+
+
+    </RelativeLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

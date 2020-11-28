@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+
+
+        <item android:title="Profile">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_manageClient"
+                    android:icon="@drawable/ic_baseline_login_24"
+                    android:title="Manage Clients" />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_profile_black_24dp"
+                    android:title="Detailed Profile"
+                    />
+
+            </menu>
+        </item>
+
+
+<item android:title="Communicate">
+    <menu>
+        <item
+            android:id="@+id/nav_share"
+            android:title="Share"
+            android:icon="@drawable/ic_baseline_share_24"/>
+        <item
+            android:id="@+id/nav_rate"
+            android:title="Rate"
+            android:icon="@drawable/ic_baseline_rate_review_24"/>
+    </menu>
+
+</item>
+</menu>

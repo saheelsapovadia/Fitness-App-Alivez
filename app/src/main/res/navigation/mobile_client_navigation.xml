@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_client_navigation"
+    app:startDestination="@+id/navigation_client_profile">
+
+    <fragment
+        android:id="@+id/navigation_client_profile"
+        android:name="com.example.bottomnav.ClientProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_client_profile" />
+
+    <fragment
+        android:id="@+id/navigation_client_workout"
+        android:name="com.example.bottomnav.ClientWorkoutFragment"
+        android:label="@string/title_workout"
+        tools:layout="@layout/fragment_client_workout" />
+
+    <fragment
+        android:id="@+id/navigation_client_bmi"
+        android:name="com.example.bottomnav.ClientBMIFragment"
+        android:label="@string/title_bmi"
+        tools:layout="@layout/fragment_client_bmi" />
+
+    <fragment
+        android:id="@+id/navigation_client_diet"
+        android:name="com.example.bottomnav.ClientDietFragment"
+        android:label="@string/title_diet"
+        tools:layout="@layout/fragment_client_diet" />
+</navigation>

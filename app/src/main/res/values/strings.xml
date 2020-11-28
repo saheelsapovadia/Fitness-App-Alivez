@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ALIVEZ</string>
+    <string name="alivez_logo">alivez_logo</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_workout">Workout Routine</string>
+    <string name="title_bmi">BMI</string>
+    <string name="title_diet">Diet Chart</string>
+    <string name="title_activity_client_bottom_nav">ClientBottomNav</string>
+    <string name="title_activity_trainer_bottom_nav">TrainerBottomNav</string>
+    <string name="client_bmi">This is Client BMI fragment</string>
+    <string name="client_diet">This is Client diet fragment</string>
+    <string name="client_profile">This is Client profile fragment</string>
+    <string name="client_workout">This is Client workout fragment</string>
+    <string name="trainer_bmi">This is Trainer BMI fragment</string>
+    <string name="trainer_diet">This is Trainer diet fragment</string>
+    <string name="trainer_profile">This is Trainer profile fragment</string>
+    <string name="trainer_workout">This is Trainer workout fragment</string>
+    <string name="login_headings">Explore the world of fitness</string>
+    <string name="login_startup_content">We will help you achieve your fitness goals</string>
+    <string name="Login">Login</string>
+    <string name="Signup">Sign Up</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="enterpassword">Enter Password</string>
+    <string name="more">More about Us</string>
+    <string name="rememberme">Remember Me</string>
+    <string name="forgetpass">Forgot Password</string>
+    <string name="createacc">Create Account</string>
+    <string name="todo">TODO</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+</resources>
